@@ -1,0 +1,40 @@
+<header class="header">
+  <div class="container">
+    <!-- Logo Section -->
+    <div class="logo">
+      <img src="../../assets/images/WhatsApp Image 2024-10-21 at 20,49,34_caea6995_enhanced.jpg" alt="BlinkTickets Logo" />
+      <!-- <span>BLINKTICKETS</span> -->
+    </div>
+
+    <!-- Search Bar Section -->
+    <div class="search-bar">
+      <div class="search-item">
+        <label for="location">LOCATION</label>
+        <input type="text" id="location" placeholder="Hayward, Oakland, +2 more..." />
+      </div>
+      <div class="search-item">
+        <label for="date">DATE</label>
+        <input type="text" id="date" placeholder="Select dates" />
+      </div>
+      <div class="search-item">
+        <label for="eventType">EVENT TYPE</label>
+        <input type="text" id="eventType" placeholder="Select event types" />
+      </div>
+      <button class="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <!-- Icons Section (Cart and User) -->
+    <div class="icons">
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+    </div>
+
+
+
+    <div (click)="navigate()">
+        <button class="btn bg-dark btn-sm text-white ms-3">logout</button>
+    </div>
+  </div>
+</header>

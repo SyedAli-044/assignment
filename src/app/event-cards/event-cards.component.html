@@ -1,0 +1,11 @@
+<div class="genre-grid">
+    <h2>Browse events by genre</h2>
+    <div class="grid-container">
+      <div class="grid-item" *ngFor="let genre of genres">
+        <img [src]="genre.icon" alt="{{ genre.name }} Icon" />
+        <h3>{{ genre.name }}</h3>
+        <p>{{ genre.eventCount }} events</p>
+      </div>
+    </div>
+  </div>
+  
